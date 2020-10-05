@@ -104,7 +104,7 @@ angular.module('templates', [])
     '            <uib-accordion close-others="true">\n' +
     '                <div uib-accordion-group is-open="vm.viewStencil">\n' +
     '                    <uib-accordion-heading>\n' +
-    '                        Edit diagram <i class="pull-right glyphicon" ng-class="{\'glyphicon-chevron-down\': vm.viewStencil, \'glyphicon-chevron-right\': !vm.viewStencil}"></i>\n' +
+    '                        Edit stencils <i class="pull-right glyphicon" ng-class="{\'glyphicon-chevron-down\': vm.viewStencil, \'glyphicon-chevron-right\': !vm.viewStencil}"></i>\n' +
     '                    </uib-accordion-heading>\n' +
     '                    <div ng-repeat="stencil in vm.stencils">\n' +
     '                        <div height="120">\n' +
